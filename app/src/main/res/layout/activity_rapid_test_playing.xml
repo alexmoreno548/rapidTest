@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#FFF"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="270dp"
+        android:id="@+id/image_back_play"
+        android:src="@drawable/back_play"
+        />
+
+    <ImageButton
+        android:id="@+id/imageButtonBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/arrow"
+        android:background="@color/blueGame"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="18dp"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <TextView
+        android:id="@+id/question_text"
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:text="@string/nullValue"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dp"
+        android:textColor="#FFF"
+        android:layout_marginBottom="46dp"
+        android:layout_alignBottom="@+id/image_back_play"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="@string/nullValue"
+        android:id="@+id/button_option1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="290dp"
+        android:background="#FFF" />
+
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="@string/nullValue"
+        android:id="@+id/button_option2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="360dp"
+        android:background="@color/whiteGame" />
+
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="@string/nullValue"
+        android:id="@+id/button_option3"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="420dp"
+        android:background="@color/whiteGame" />
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="@string/nullValue"
+        android:id="@+id/button_option4"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="490dp"
+        android:background="@color/whiteGame" />
+
+
+</RelativeLayout>

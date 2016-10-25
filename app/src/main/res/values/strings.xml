@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RapidTest</string>
+    <string name="title_activity_rapid_test_playing">Rapid Test</string>
+    <string name="nullValue">cargando...</string>
+    <string name="PlayAgain">Play Again</string>
+    <string name="Exit">Exit</string>
+    <string name="DefaultNumbers">000</string>
+</resources>
